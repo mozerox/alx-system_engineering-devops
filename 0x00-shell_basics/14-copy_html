@@ -1,0 +1,6 @@
+#!/bin/bash
+parent_dir="../"
+current_dir="."
+
+# Copy HTML files to the parent directory
+cp -u -n "${current_dir}"/*.html "${parent_dir}"
