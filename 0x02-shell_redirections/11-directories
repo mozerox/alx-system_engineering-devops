@@ -1,2 +1,2 @@
 #!/bin/bash
-shopt -s dotglob nullglob; count=(*/); echo ${#count[@]}
+find . -type d -not -name | wc -l
